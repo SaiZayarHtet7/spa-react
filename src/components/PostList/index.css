@@ -1,0 +1,21 @@
+.postList {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.postList .single-post {
+   flex-direction: column;
+    margin:20px;
+    flex-basis: 350px; 
+    height: 300px;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size:20px;
+    border: 1px solid grey;
+    border-radius: 30px;
+}

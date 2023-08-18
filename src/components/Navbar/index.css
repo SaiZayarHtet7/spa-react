@@ -1,0 +1,22 @@
+.navbar {
+  padding: 10px;
+  background-color: grey;
+  color: white;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar .container ul {
+  display: flex;
+}
+
+.navbar .container li {
+  list-style-type: none;
+  margin: 0 20px;
+}
